@@ -1,0 +1,50 @@
+body{
+    background-color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;/*统一父元素的字体*/
+
+}
+/*
+p{
+    color: maroon;
+}*/
+h1,h2{
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    
+}
+h2{
+    font-size: 130%;
+}
+h1{
+    border-bottom: 1px solid #888888;/*页面一样大小的下划线*/
+    font-family: "Emblema One",'Times New Roman', Times, serif;
+    font-size: 150%;
+}
+/*
+p.Dva{
+    color: pink;
+}
+p.olisha{
+    color: green;
+}*/
+blockquote{
+    font-style: italic;/*斜体*/
+    line-height: 1.6em;/*行高*/
+}
+
+.heroes{
+    color: #444444;
+    border-width: 3px;
+    border-style: dashed;/*边框样式 破折线*/
+    margin-right: 250px;
+
+}
+#footer{
+    color: #444444;
+    font-size: xx-small;
+    border-top: 1px solid #888888;/*页面一样大小的下划线*/
+    padding-top: 8px;
+    margin-left:15%;
+    margin-right: 15%;
+}

@@ -53,11 +53,11 @@ blockquote{
     border-color: #d2b48c;
     background-color: #a7cece;
     padding: 25px; /*内边距*/
-    padding-left: 80px;/*注意顺序，如果和上一行交换左边的内边距会被覆盖*/
+    /*padding-left: 80px;/*注意顺序，如果和上一行交换左边的内边距会被覆盖*/
     margin: 30px;/*外边距*/
-    margin-right: 30px;
-    background-image: url(image/background.gif);/*设置背景图*/
-    background-repeat: no-repeat;/*设置背景图重复方式*/
+    /*margin-right: 30px;
+    background-image: url(image/background.gif);/*设置背景图
+    background-repeat: no-repeat;/*设置背景图重复方式
     background-position: top left;/*设置背景图位置*/
 }
 #footer{
