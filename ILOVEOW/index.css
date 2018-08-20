@@ -2,37 +2,69 @@
     font-family: "Emblema One";
     src: url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"),
           url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf");
-}
+}/*定义网络上的字体*/
+
+
 body{
     background-color:#d2b48c;
-    margin-left:20%;
-    margin-right: 20%;
+    margin-left:15%;
+    margin-right: 15%;
     border: 2px dotted black;
     padding:10px 10px;
-    font-family: sans-serif;
-    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;/*统一父元素的字体*/
 
 }
+/*
 p{
     color: maroon;
-}
+}*/
 h1,h2{
     font-family: 'Times New Roman', Times, serif;
-    color: grey;
+    color:#007e7e;
     
 }
 h2{
-    font-size: 120%;
+    font-size: 130%;
 }
 h1{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #888888;/*页面一样大小的下划线*/
     font-family: "Emblema One",'Times New Roman', Times, serif;
     font-size: 150%;
 }
+/*
 p.Dva{
     color: pink;
 }
 p.olisha{
     color: green;
+}*/
+blockquote{
+    font-style: italic;/*斜体*/
+    line-height: 1.6em;/*行高*/
 }
 
+.heroes{
+    border-color:black;
+    color: #444444;
+    border-width: 3px;
+    border-style: dashed;/*边框样式 破折线*/
+    border-radius: 15px;/*边框圆角*/
+    border-color: #d2b48c;
+    background-color: #a7cece;
+    padding: 25px; /*内边距*/
+    padding-left: 80px;/*注意顺序，如果和上一行交换左边的内边距会被覆盖*/
+    margin: 30px;/*外边距*/
+    margin-right: 250px;
+    background-image: url(image/background.gif);/*设置背景图*/
+    background-repeat: no-repeat;/*设置背景图重复方式*/
+    background-position: top left;/*设置背景图位置*/
+}
+#footer{
+    color: #444444;
+    font-size: xx-small;
+    border-top: 1px solid #888888;/*页面一样大小的下划线*/
+    padding-top: 8px;
+    margin-left:15%;
+    margin-right: 15%;
+}
