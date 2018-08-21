@@ -55,7 +55,7 @@ blockquote{
     padding: 25px; /*内边距*/
     padding-left: 80px;/*注意顺序，如果和上一行交换左边的内边距会被覆盖*/
     margin: 30px;/*外边距*/
-    margin-right: 25%;
+    margin-right: 5%;
     background-image: url(image/background.gif);/*设置背景图*/
     background-repeat: no-repeat;/*设置背景图重复方式*/
     background-position: top left;/*设置背景图位置*/
@@ -65,27 +65,57 @@ blockquote{
     font-size: xx-small;
     border-top: 1px solid #888888;/*页面一样大小的下划线*/
     padding-top: 8px;
-    margin-left:15%;
-    margin-right: 15%;
     margin-top: 30px;
     text-align: center;
+    line-height: normal;
+    background: #333333;
+    clear: both;
 }
 .topplayer{
-    font-style: italic;
-}
-.playid{
     font-weight: bold;
 }
+.playid{
+    font-style: italic;
+}
+/*往下还没更新到mobile和print*/
 #upper{
     margin-top: 30px;
     border-top: 1px solid #444444;
+    float:right;
 }
-a:link{
-    color: #007e7e;
+/*为访问状态*/
+a:link{   
+    color: #007e7e; 
 }
+/*已访问状态*/
 a:visited{
     color: #444444;
 }
+/*悬停时*/
 a:hover{
     color: blue;
+}
+/*鼠标悬停时背景色*/
+#upper a:hover{
+    background-color:  #f88396;
+}
+#header{
+    text-align: center;
+    background: #e08f23;
+    margin-bottom: 20px;
+}
+div#main{
+    background: #e08f23;
+    display: table;
+
+}
+div#firetrow{
+    display: table-row;
+}
+div#secondrow{
+    display: table-row;
+}
+div.jianjie{
+    display: table-cell;
+    vertical-align: top;
 }
