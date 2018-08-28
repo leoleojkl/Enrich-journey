@@ -1,0 +1,23 @@
+body{
+    background-color:#d2b48c;
+    margin-left:15%;
+    margin-right: 15%;
+    border: 2px dotted black;
+    padding:10px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;/*统一父元素的字体*/
+
+}
+h1,h2{
+    font-family: 'Times New Roman', Times, serif;
+    color:#007e7e;
+    
+}
+h2{
+    font-size: 130%;
+}
+h1{
+    border-bottom: 1px solid #888888;/*页面一样大小的下划线*/
+    font-family: "Emblema One",'Times New Roman', Times, serif;
+    font-size: 150%;
+}

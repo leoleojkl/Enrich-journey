@@ -40,16 +40,7 @@ blockquote{
     margin-right: 250px;
 
 }
-#footer{
-    color: #444444;
-    font-size: xx-small;
-    border-top: 1px solid #888888;/*页面一样大小的下划线*/
-    padding-top: 8px;
-    margin-left:15%;
-    margin-right: 15%;
-    margin-top: 30px;
-    text-align: center;
-}
+
 .topplayer{
     font-style: italic;
 }
@@ -60,12 +51,4 @@ blockquote{
     margin-top: 30px;
     border-top: 1px solid #444444;
 }
-a:link{
-    color: #007e7e;
-}
-a:visited{
-    color: #444444;
-}
-a:hover{
-    color: blue;
-}
+

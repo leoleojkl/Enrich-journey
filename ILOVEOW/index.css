@@ -60,17 +60,7 @@ blockquote{
     background-repeat: no-repeat;/*设置背景图重复方式*/
     background-position: top left;/*设置背景图位置*/
 }
-#footer{
-    color: #444444;
-    font-size: xx-small;
-    border-top: 1px solid #888888;/*页面一样大小的下划线*/
-    padding-top: 8px;
-    margin-top: 30px;
-    text-align: center;
-    line-height: normal;
-    background: #333333;
-    clear: both;
-}
+
 .topplayer{
     font-weight: bold;
 }
@@ -109,13 +99,19 @@ div#main{
     display: table;
 
 }
+/*
 div#firetrow{
     display: table-row;
 }
 div#secondrow{
     display: table-row;
-}
+}*/
 div.jianjie{
     display: table-cell;
     vertical-align: top;
+}
+#ticket{
+    position: fixed;
+    top: 50%;
+    left: -120px;
 }
