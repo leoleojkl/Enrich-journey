@@ -154,6 +154,7 @@ table{
     border: thin solid black; /*整个表格的黑细边框*/
     caption-side: bottom;/*把标题移动到表格下方*/
     border-spacing: 2px 0px;/*单元格垂直与水平的边框间距*/
+    text-align: center;/*单元格水平对齐方式*/
 }
 td,th{
     border: thin dotted gray;/*内单元格边框*/
