@@ -73,6 +73,8 @@ blockquote{
     border-top: 1px solid #444444;
     float:right;
 }
+
+/*链接的表现********/
 /*为访问状态*/
 a:link{   
     color: #007e7e; 
@@ -89,6 +91,8 @@ a:hover{
 #upper a:hover{
     background-color:  #f88396;
 }
+/********链接的表现*/
+
 header.top{
     text-align: center;
     background: #e08f23;
@@ -110,6 +114,8 @@ div.jianjie{
     display: table-cell;
     vertical-align: top;
 }
+
+/*固定在固定位置的票******/
 #ticket{
     position: fixed;
     top: 50%;
@@ -118,6 +124,9 @@ div.jianjie{
 #ticket a,img{
     border: none;
 }
+/*********固定定位*/
+
+/*导航的表现**********/
 nav.topnav ul{
     background: #efe5d0;
     margin: 10px 0px 10px 0px;
@@ -136,3 +145,44 @@ nav.topnav ul li a:link,nav.topnav ul li a:visited{
 nav.topnav ul li.selected{
     background-color: #c8b99c;
 }
+/***********导航的表现*/
+
+/*表格的表现***********/
+table{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: thin solid black; /*整个表格的黑细边框*/
+    caption-side: bottom;/*把标题移动到表格下方*/
+    border-spacing: 2px 0px;/*单元格垂直与水平的边框间距*/
+}
+td,th{
+    border: thin dotted gray;/*内单元格边框*/
+    padding: 5px;/*单元格内边距*/
+}
+
+/*标题背景色*/
+th{
+    background-color: #c60;
+}
+
+/*隔行背景色*/
+/*tr.cellcolor{
+    background-color: #fcba7a;
+}*/
+/*用伪类隔行设置背景色更方便*/
+tr:nth-child(2n+1){
+    background-color: #fcba7a;
+}
+
+/*表格标题的表现*/
+caption{
+    font-style: italic;
+    padding-top: 8px;
+}
+
+/*嵌套表格的表现*/
+table table th,table table td{
+    background-color:#d2b48c;
+}
+/***********表格的表现*/
+
