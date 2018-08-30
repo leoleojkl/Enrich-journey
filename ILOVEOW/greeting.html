@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="index-mobile.css" media="screen and (max-width:480px)" >
         <link rel="stylesheet" href="index-print.css"  media="print">
         <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="form.css">
     </head>
     <body>
         <header>
@@ -27,18 +28,55 @@
         </div>
         <h1>你好呀</h1>
         <form action="http://starbuzzcoffee.com/processorder.php" method="POST">
-            <p>名字：  <input type="text" name="username" value="dva"></p>
-            <p>性别：<input type="radio" name="selx" value="male">男<input type="radio" name="selx" value="famale">女</p>
-            <p>邮箱：  <input type="email" name="useremail"></p>
-            <p>建议：  <input type="textarea" name="suggestion"></p>
-            <p>
-                联系电话： <input type="tel" name="phone"><br><br>
-                建议类型：<select name="sugtype" >
-                    <option value="newbl">新想法新增板块</option>
-                    <option value="oldbl">旧模块改进建议</option>
-                </select>
-            </p>
-            <p><input type="submit" value=" OK "></p>
+            <div class="tabrow">
+                <p>名字：</p> 
+                <p> <input type="text" name="username" value="dva"></p> 
+            </div>            
+            <div class="tabrow">
+                <p>性别：</p>
+                <p>
+                    <input type="radio" name="selx" value="male">男
+                    <input type="radio" name="selx" value="famale">女
+                </p>
+            </div>
+            <div class="tabrow">
+                <p>邮箱：</p>
+                <p>  <input type="email" name="useremail"></p> 
+            </div>            
+            <div class="tabrow">
+                <p>可交流日期：</p>
+                <p> <input type="date" name="date"></p> 
+            </div>           
+            <div class="tabrow">
+                <p>建议：</p> 
+                <p>
+                    <textarea name="suggestion" id="" cols="30" rows="10"></textarea>
+                </p> 
+            </div>            
+            <div class="tabrow"> 
+                <p>联系电话：</p>
+                <p> <input type="tel" name="phone"></p>
+            </div>
+            <div class="tabrow">    
+                <p>建议类型：</p>
+                <p>
+                    <select name="sugtype" >
+                        <option value="newbl">新想法新增板块</option>
+                        <option value="oldbl">旧模块改进建议</option>
+                    </select>
+                </p>
+            </div>
+            
+            <div class="tabrow"> 
+                <p>关于你：</p>
+                <p>
+                    <input type="checkbox" name="userfeature[]" value="buygame">已购买游戏<br>
+                    <input type="checkbox" name="userfeature[]" value="leave">游戏时间长达两个月及以上<br>
+                    <input type="checkbox" name="userfeature[]" value="team">有固定玩伴<br>
+                </p>
+            </div>
+            <div class="tabrow"> <p></p> <p><input type="submit" value=" OK "></p> </div>
+            
         </form>
    
        

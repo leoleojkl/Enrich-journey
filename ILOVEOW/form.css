@@ -1,0 +1,18 @@
+form{
+    display: table;
+    padding: 10px;
+    border: thin dotted #7e7e7e;
+    background-color: #e1ceb8;
+    margin-left: 25%;
+}
+div.tabrow{
+    display: table-row;
+}
+form p{
+    display: table-cell;
+    vertical-align: top;
+    padding: 3px;
+}
+form p:first-child{
+    text-align: right;
+}
