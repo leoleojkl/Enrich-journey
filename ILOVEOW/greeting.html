@@ -29,8 +29,8 @@
         <h1>你好呀</h1>
         <form action="http://starbuzzcoffee.com/processorder.php" method="POST">
             <div class="tabrow">
-                <p>名字：</p> 
-                <p> <input type="text" name="username" value="dva"></p> 
+                <p> * 名字：</p> 
+                <p> <input type="text" name="username" placeholder="dva" required></p> 
             </div>            
             <div class="tabrow">
                 <p>性别：</p>
@@ -48,14 +48,22 @@
                 <p> <input type="date" name="date"></p> 
             </div>           
             <div class="tabrow">
-                <p>建议：</p> 
+                <p> * 建议：</p> 
                 <p>
-                    <textarea name="suggestion" id="" cols="30" rows="10"></textarea>
+                    <textarea name="suggestion" id="" cols="30" rows="10" required></textarea>
                 </p> 
             </div>            
             <div class="tabrow"> 
                 <p>联系电话：</p>
                 <p> <input type="tel" name="phone"></p>
+            </div>
+            <div class="tabrow"> 
+                <p>设置密码：</p>
+                <p> <input type="password" name="password"></p>
+            </div>
+            <div class="tabrow"> 
+                <p>上传文件：</p>
+                <p> <input type="file" name="doc"></p>
             </div>
             <div class="tabrow">    
                 <p>建议类型：</p>
@@ -68,12 +76,14 @@
             </div>
             
             <div class="tabrow"> 
-                <p>关于你：</p>
-                <p>
+                <fieldset>
+                <legend>关于你：</legend>
+                <legend>
                     <input type="checkbox" name="userfeature[]" value="buygame">已购买游戏<br>
                     <input type="checkbox" name="userfeature[]" value="leave">游戏时间长达两个月及以上<br>
                     <input type="checkbox" name="userfeature[]" value="team">有固定玩伴<br>
-                </p>
+                </legend>
+                </fieldset>
             </div>
             <div class="tabrow"> <p></p> <p><input type="submit" value=" OK "></p> </div>
             

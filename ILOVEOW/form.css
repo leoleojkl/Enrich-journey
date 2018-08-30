@@ -1,4 +1,7 @@
 form{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    line-height: 1.5em;
     display: table;
     padding: 10px;
     border: thin dotted #7e7e7e;
@@ -13,6 +16,7 @@ form p{
     vertical-align: top;
     padding: 3px;
 }
-form p:first-child{
+/*字段右对齐 观赏性更好*/
+form p:first-child,form legend:first-child{
     text-align: right;
 }
