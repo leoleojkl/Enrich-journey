@@ -187,3 +187,49 @@ table table th,table table td{
 }
 /***********表格的表现*/
 
+/*反馈表单的表现****************/
+form{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    line-height: 1.5em;
+    display: table;
+    padding: 10px;
+    border: thin dotted #7e7e7e;
+    background-color: #e1ceb8;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+div.tabrow{
+    display: table-row;
+}
+form p{
+    display: table-cell;
+    vertical-align: top;
+    padding: 3px;
+}
+/*字段右对齐 观赏性更好*/
+form p:first-child,form legend:first-child{
+    text-align: right;
+}
+div.zhuan{
+    height: 10px;
+    width: 10px;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+    background-color:#e1ceb8;
+    text-shadow: #7e7e7e;
+    transition: transform 1s;
+    -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
+    -o-transition: -o-transform 1s;
+    /* no IE support for transition until possibly IE 10 */
+}
+div.zhuan:hover {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg); /* Safari, Chrome, mobile Safari, and Android */
+    -moz-transform: rotate(45deg); /* Firefox */
+    -o-transform: rotate(45deg); /* Opera */
+    -ms-transform: rotate(45deg); /* IE 9 */
+}
+/*****************反馈表单的表现*/
