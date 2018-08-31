@@ -51,4 +51,62 @@ blockquote{
     margin-top: 30px;
     border-top: 1px solid #444444;
 }
+/*固定在固定位置的票******/
+#ticket{
+    position: fixed;
+    top: 50%;
+    left: -1200px;
+}
+#ticket a,img{
+    border: none;
+}
+/*********固定定位*/
 
+/*导航的表现**********/
+nav.topnav ul{
+    margin: 10px 0px 10px 0px;
+    list-style-type: none; /*删除列表符号*/
+    padding: 5px 0px 5px 0px;
+}
+nav.topnav ul li{
+    display: inline;/*列表显示项改为内联元素*/
+    padding: 5px 10px;
+}
+nav.topnav ul li a:link,nav.topnav ul li a:visited{
+    border-bottom: none;
+    font-weight: bold;
+}
+nav.topnav ul li.selected{
+    background-color: #c8b99c;
+}
+/***********导航的表现*/
+/*反馈表单的表现****************/
+form{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    line-height: 1.5em;
+    display: table;
+    padding: 10px;
+    border: thin dotted #7e7e7e;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+div.tabrow{
+    display: table-row;
+}
+form p{
+    display: table-cell;
+    vertical-align: top;
+    padding: 3px;
+}
+/*字段右对齐 观赏性更好*/
+form p:first-child,form legend:first-child{
+    text-align: right;
+}
+div.zhuan{
+    height: 10px;
+    width: 10px;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+}
